@@ -55,7 +55,7 @@ function getNewData() {
 function getMarketDataAndUpdate(market) {
 
   $.ajax({
-    url: "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC&tsyms=USD&e="+market+"&extraParams=test",
+    url: "https://min-api.cryptocompare.com/data/pricemulti?fsyms=BTC&tsyms=USD&e="+market+"&extraParams=BitcoinNow",
     dataType: "json"
   }).done(function(data) {
 
