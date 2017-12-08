@@ -1,0 +1,60 @@
+html {
+    min-width: 500px;
+    background-color: #ececec;
+    font-family: monospace;
+    color: #29353d;
+    font-weight: bold;
+}
+
+section#logo-container {
+    margin: -8px -8px 0 -8px;
+}
+
+section#logo-container h1 {
+    color: #f79926;
+}
+
+#bn-main-container {
+    text-align: center;
+    margin: 0;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+#bn-main-container #markets .ticker .market,
+#bn-main-container #markets .ticker .rate {
+    display: inline-block;
+    font-size: 23px;
+    padding: .3em;
+    margin: 0;
+    margin-bottom: .1em;
+}
+
+#bn-main-container #markets .ticker .market {
+    width: 5em;
+    text-align: right;
+}
+
+#bn-main-container #markets .ticker .rate {
+    width: 11em;
+    text-align: left;
+    border: 1px solid grey;
+    background-color: white;
+}
+
+#bn-main-container #updateNote {
+    margin-bottom: 0;
+}
+
+#bn-main-container legend {
+    margin: 1.5em;
+    margin-right: 4.5em;
+    margin-bottom: 0;
+    padding-bottom: 1em;
+    color: #969696;
+    float: right;
+}
+
+#bn-main-container legend a:link, #bn-main-container legend a:active, #bn-main-container legend a:hover, #bn-main-container legend a:visited {
+    color: #969696;
+}

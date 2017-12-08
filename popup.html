@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bitcoin Now</title>
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body id="bn-main-container">
+    <section id="logo-container">
+        <img src="/icon.png"/>
+        <h1>Bitcoin Now</h1>
+    </section>
+    <!-- <section id="ticker">
+      <p id="rate"></p>
+      <p id="updatedTime"></p>
+    </section> -->
+    <section id="markets">
+      <section id="bitfinex" class="ticker">
+        <p class="market">Bitfinex</p>
+        <p class="rate"></p>
+      </section>      
+      <section id="bittrex" class="ticker">
+          <p class="market">BitTrex</p>
+        <p class="rate"></p>
+      </section>
+      <section id="coinbase" class="ticker">
+          <p class="market">Coinbase</p>
+        <p class="rate"></p>
+      </section>      
+      <section id="gemini" class="ticker">
+          <p class="market">Gemini</p>
+        <p class="rate"></p>
+      </section>      
+      <section id="kraken" class="ticker">
+          <p class="market">Kraken</p>
+        <p class="rate"></p>
+      </section>
+      <section id="poloniex" class="ticker">
+          <p class="market">Poloniex</p>
+        <p class="rate"></p>
+      </section>    
+      <p id="updatedTime"></p>
+      <p id="updateNote">Polls for changes every 10 seconds</p>  
+    </section>
+    <legend>Powered by <a href="https://www.cryptocompare.com/">CryptoCompare</a></legend>
+  </body>
+</html>
