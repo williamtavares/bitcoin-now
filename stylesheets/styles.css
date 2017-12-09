@@ -6,14 +6,6 @@ html {
     font-weight: bold;
 }
 
-section#logo-container {
-    margin: -8px -8px 0 -8px;
-}
-
-section#logo-container h1 {
-    color: #f79926;
-}
-
 #bn-main-container {
     text-align: center;
     margin: 0;
@@ -21,10 +13,29 @@ section#logo-container h1 {
     padding-bottom: 2em;
 }
 
+section#logo-container {
+    margin: -8px -8px 0 -8px;
+}
+
+section#logo-container img {
+   width: 100px;
+}
+
+section#logo-container h1 {
+    color: #f79926;
+    margin-bottom: .3em;
+}
+
+#bn-main-container #logo-container legend {
+    font-size: 16px;
+    color: #6d6d6d;
+    margin-bottom: .3em;
+}
+
 #bn-main-container #markets .ticker .market,
 #bn-main-container #markets .ticker .rate {
     display: inline-block;
-    font-size: 23px;
+    font-size: 22px;
     padding: .3em;
     margin: 0;
     margin-bottom: .1em;
@@ -32,29 +43,33 @@ section#logo-container h1 {
 
 #bn-main-container #markets .ticker .market {
     width: 5em;
+    margin-left: 2em;
     text-align: right;
 }
 
 #bn-main-container #markets .ticker .rate {
-    width: 11em;
+    width: 7em;
     text-align: left;
-    border: 1px solid grey;
-    background-color: white;
+}
+
+#bn-main-container #updatedTime {
+    color: #6d6d6d;
 }
 
 #bn-main-container #updateNote {
     margin-bottom: 0;
+    color: #6d6d6d;
 }
 
-#bn-main-container legend {
+#bn-main-container #poweredBy {
     margin: 1.5em;
-    margin-right: 4.5em;
+    margin-right: 1.5em;
     margin-bottom: 0;
     padding-bottom: 1em;
     color: #969696;
     float: right;
 }
 
-#bn-main-container legend a:link, #bn-main-container legend a:active, #bn-main-container legend a:hover, #bn-main-container legend a:visited {
+#bn-main-container #poweredBy a:link, #bn-main-container #poweredBy a:active, #bn-main-container #poweredBy a:hover, #bn-main-container #poweredBy a:visited {
     color: #969696;
 }

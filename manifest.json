@@ -3,7 +3,7 @@
 
   "name": "Bitcoin Now",
   "description": "Simple bitcoin price tracker",
-  "version": "1.21",
+  "version": "1.22",
   "permissions": [
     "activeTab"
   ],
